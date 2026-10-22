@@ -489,9 +489,17 @@ button {
 .contact h2 {
   margin: 0;
   font-size: clamp(2rem, 6vw, 3rem);
-  line-height: 1;
+  line-height: 1.15;
   letter-spacing: -0.03em;
   max-width: 16ch;
+}
+
+.contact-lead {
+  margin: 1.5rem 0 0;
+  max-width: 34rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--mute);
 }
 
 .contact-row {
@@ -583,7 +591,7 @@ button {
     margin-bottom: 0;
   }
 
-  .hero-lead {
+  .hero .hero-lead {
     margin-top: 0;
   }
 
@@ -593,6 +601,15 @@ button {
 
   .hero-photo {
     max-width: 22rem;
+  }
+
+  .contact h2 {
+    max-width: none;
+    line-height: 1.2;
+  }
+
+  .contact-lead {
+    margin-top: 1.75rem;
   }
 }
 
