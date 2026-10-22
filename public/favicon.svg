@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#141414"/>
-  <text x="16" y="22" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#775AFF"></text>
+  <rect width="32" height="32" rx="8" fill="#FAFAFA"/>
+  <g fill="#141414">
+    <polygon points="8,24 10.6,24 16.4,8.2 13.8,8.2"/>
+    <polygon points="16.2,8.2 18.8,8.2 25,23.2 22.4,23.2"/>
+    <polygon points="11.1,16.6 21.6,15.8 21.6,18.2 11.1,19"/>
+  </g>
 </svg>
